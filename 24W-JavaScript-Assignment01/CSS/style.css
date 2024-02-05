@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.StoryCreator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.StoryCreator > div {
+    display: flex;
+    gap: 50px;
+}
+.StoryCreator > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.StoryCreator > div > div > button {
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.StoryViewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.StoryViewer > div > button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+    border: 1px solid rgb(184, 184, 184);
+}
+.StoryViewer > p {
+    text-align: center;
+}
