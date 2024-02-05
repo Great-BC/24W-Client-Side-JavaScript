@@ -16,7 +16,7 @@ const chosenAdjective = document.getElementById("choosenAdjective");
 const chosenNoun2 = document.getElementById("choosenNoun2");
 const chosenSetting = document.getElementById("choosenSetting");
 const story = "";
-const randomIndex = Math.floor(Math.random() * 5);
+const randomIndex = Math.floor(Math.random() * 7);
 const studentNumber = document.getElementById("studentId");
 // Constants for final buttons and p tags
 const playbackButton = document.getElementById("playback");
@@ -98,12 +98,7 @@ function getRandomElement(array) {
 }
 
 function resetStory() {
-    chosenNoun1.textContent = "";
-    chosenVerb.textContent = "";
-    chosenAdjective.textContent = "";
-    chosenNoun2.textContent = "";
-    chosenSetting.textContent = "";
-    storyParagraph.textContent = "";
+    location.reload();
 }
 
 /* Event Listeners
