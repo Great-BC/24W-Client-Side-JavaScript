@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.StudentWrapper > p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+.ColorInputWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ColorInputWrapper > label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.ColorInputWrapper > input {
+    width: 20vw;
+    height: 3vh;
+    border-radius: 30px;
+    border: none;
+    padding-left: 20px;
+    background-color: rgb(195, 195, 195);
+}
+.ButtonWrapper > button {
+    width: 15vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid rgb(200, 200, 200);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+.ImageSelectWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.ImageSelectWrapper > label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.ImageSelectWrapper > select {
+    width: 8vw;
+    height: 2vh;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Ysabeau Office', sans-serif;
+    background-color: rgb(195, 195, 195);
+    
+
+}
+
+.ImageWrapper > img {
+    width: 70vw
+    
+}
