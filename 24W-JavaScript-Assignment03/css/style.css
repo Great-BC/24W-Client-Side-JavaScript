@@ -3,3 +3,89 @@ main > section {
     flex-direction: column;
     align-items: center;
 }
+main > section > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
+main > section > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
+.CrustSize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CrustSize > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+}
+.CrustSize > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.CrustSize > div > div > label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+/* Sauce Styling */
+.Sauce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Sauce > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+}
+.Sauce > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Sauce > div > div > label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+/* Cheese & Toppings Styling */
+.CheeseToppings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CheeseToppings > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+}
+.CheeseToppings > div {
+    display: flex;
+    gap: 10px;
+}
+
+.CheeseToppings > div > div > label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.OrderButton > button {
+    width: 6vw;
+    height: 4vh;
+    font-size: 1.4em;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 700;
+    letter-spacing: 1px;
+    background-color: rgb(80, 116, 184);
+    border-radius: 7px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+
+}
