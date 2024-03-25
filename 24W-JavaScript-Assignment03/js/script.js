@@ -1,9 +1,8 @@
 
 // Capture form values, create Pizza object and add student information
-document.getElementById('order-btn').addEventListener('click', function () {
-    var studentInfo = document.createElement('p');
+document.getElementById('orderBtn').addEventListener('click', function () {
+    var studentInfo = document.getElementById("studentInfo");
     studentInfo.textContent = "Student ID: 200555844";
-    document.getElementById('student-info').appendChild(studentInfo);
     var size = document.querySelector('input[name="size"]:checked').value;
     var crust = document.querySelector('input[name="crust"]:checked').value;
     var sauce = document.querySelector('input[name="sauce"]:checked').value;
@@ -20,7 +19,7 @@ document.getElementById('order-btn').addEventListener('click', function () {
     var pizza = new Pizza(size, crust, sauce, cheese, toppings);
 
     // Output pizza description
-    var pizzaDescription = document.getElementById('pizza-description');
+    var pizzaDescription = document.getElementById('pizzaDescription');
     pizzaDescription.innerHTML = `
         <h2>Your Pizza</h2>
         <p>Size: ${pizza.size}</p>
