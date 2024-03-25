@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Pizza Maker</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Create Your Pizza</h1>
+            <p id="student-info"></p> <!-- Add a paragraph tag for student info -->
+            <!-- Pizza Options 1 Size -->
+            <div>
+                <!-- Small -->
+                <h1>Size</h1>
+                <div>
+                    <label>9" Small</label>
+                    <input type="radio" name="size" id="sizeSmall" value='9" Small'>
+                </div>
+                <!-- Medium -->
+                <div>
+                    <label>12" Medium</label>
+                    <input type="radio" name="size" id="sizeMedium" value='12" Medium'>
+                </div>
+                <!-- Large -->
+                <div>
+                    <label>14" Large</label>
+                    <input type="radio" name="size" id="sizeLarge" value='14" Large'>
+                </div>
+            </div>
+            <!-- Pizza Options 2 Crust -->
+            <div>
+                <h1>Crust</h1>
+                <!-- Hand Tossed -->
+                <div>
+                    <label>Hand Tossed</label>
+                    <input type="radio" name="crust" value="Hand Tossed">
+                </div>
+                <!-- Pan -->
+                <div>
+                    <label>Pan</label>
+                    <input type="radio" name="crust" value="Pan">
+                </div>
+                <!-- Stuffed -->
+                <div>
+                    <label>Stuffed</label>
+                    <input type="radio" name="crust" value="Stuffed">
+                </div>
+                <!-- Thin -->
+                <div>
+                    <label>Thin</label>
+                    <input type="radio" name="crust" value="Thin">
+                </div>
+            </div>
+            <!-- Pizza Options 3 Sauce -->
+            <div>
+                <h1>Sauce</h1>
+                <div>
+                    <label>Pizza Sauce</label>
+                    <input type="radio" name="sauce" value="Pizza Sauce">
+                </div>
+
+                <div>
+                    <label>BBQ Sauce </label>
+                    <input type="radio" name="sauce" value="BBQ Sauce">
+                </div>
+
+                <div>
+                    <label>Alfredo Sauce</label>
+                    <input type="radio" name="sauce" value="Alfredo Sauce">
+                </div>
+
+                <div>
+                    <label>Marinara Sauce</label>
+                    <input type="radio" name="sauce" value="Marinara Sauce">
+                </div>
+            </div>
+            <!-- Pizza Options 4 Cheese -->
+            <div>
+                <h1>Cheese</h1>
+                <div>
+                    <label>Mozzarella</label>
+                    <input type="checkbox" name="cheese" value="Mozzarella">
+                </div>
+
+                <div>
+                    <label>Cheddar</label>
+                    <input type="checkbox" name="cheese" value="Cheddar">
+                </div>
+
+                <div>
+                    <label>Monterey Jack</label>
+                    <input type="checkbox" name="cheese" value="Monterey Jack">
+                </div>
+
+                <div>
+                    <label>Feta Cheese</label>
+                    <input type="checkbox" name="cheese" value="Feta Cheese">
+                </div>
+
+                <div>
+                    <label>No Cheese</label>
+                    <input type="checkbox" name="cheese" value="No Cheese">
+                </div>
+            </div>
+            <!-- Pizza Options 5 Toppings -->
+            <div>
+                <h1>Toppings</h1>
+                <div>
+                    <label>Philly Steak</label>
+                    <input type="checkbox" name="toppings" value="Philly Steak">
+                </div>
+
+                <div>
+                    <label>Chicken</label>
+                    <input type="checkbox" name="toppings" value="Chicken">
+                </div>
+
+                <div>
+                    <label>Bacon</label>
+                    <input type="checkbox" name="toppings" value="Bacon">
+                </div>
+
+                <div>
+                    <label>Sausages</label>
+                    <input type="checkbox" name="toppings" value="Sausages">
+                </div>
+
+                <div>
+                    <label>Green Peppers</label>
+                    <input type="checkbox" name="toppings" value="Green Peppers">
+                </div>
+
+                <div>
+                    <label>Red Onions</label>
+                    <input type="checkbox" name="toppings" value="Red Onions">
+                </div>
+
+                <div>
+                    <label>Mushrooms</label>
+                    <input type="checkbox" name="toppings" value="Mushrooms">
+                </div>
+
+                <div>
+                    <label>Pineapple</label>
+                    <input type="checkbox" name="toppings" value="Pineapple">
+                </div>
+
+                <div>
+                    <label>Beef Crumble</label>
+                    <input type="checkbox" name="toppings" value="Beef Crumble">
+                </div>
+
+                <div>
+                    <label>Pepperoni</label>
+                    <input type="checkbox" name="toppings" value="Pepperoni">
+                </div>
+
+                <div>
+                    <label>Ham</label>
+                    <input type="checkbox" name="toppings" value="Ham">
+                </div>
+
+                <div>
+                    <label>Olives</label>
+                    <input type="checkbox" name="toppings" value="Olives">
+                </div>
+            </div>
+
+            <!-- Order Button -->
+            <div>
+                <button id="order-btn">Order</button>
+            </div>
+            <!-- Output pizza description -->
+            <div id="pizza-description"></div>
+        </section>
+    </main>
+</body>
+</html>
