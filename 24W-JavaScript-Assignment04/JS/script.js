@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const contentWrapper = document.querySelector('.content-wrapper')
     form.addEventListener('submit', function(event) {
         event.preventDefault(); // Prevents form submission
-        const query = document.getElementById('search-input').value.trim(); 
+        const query = document.getElementById('search-input').value.replace(/\s/g, ''); // Clears spaces
         if (query !== '') {
             searchMovies(query); // Calls the function to search movies
             contentWrapper.style.backgroundImage = "none";
