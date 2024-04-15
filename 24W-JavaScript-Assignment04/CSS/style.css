@@ -1,0 +1,56 @@
+/* Body styling */
+body {
+    background-color: rgb(207, 207, 207);
+}
+/* Main Styling */
+main {
+    display: flex;
+    justify-content: center;
+}
+/* Movie search background styling */
+.content-wrapper {
+    background-image: url(../Images/MovieBackground.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding: 400px 600px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+/* Search Container styling */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.search-container > h1 {
+    color: white;
+}
+/* Movies container styling */
+.movie-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+}
+/* Movies items */
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    
+}
+/* Movie Image */
+.movie-image {
+    width: 80%;
+    height: auto;
+}
+/* Movie info */
+.movie-info {
+    display: flex;
+    flex-direction: column;
+}
